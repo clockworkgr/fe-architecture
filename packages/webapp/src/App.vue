@@ -1,4 +1,10 @@
 <script setup lang="ts">
+/*
+This is one of our apps.
+
+It creates an empty pinia store and simply imports components from either the ui-components or logic-components library.
+It only needs to instantiate the "special" client library store.
+*/
 import { useClientLib} from '@clockwork-projects/stores';
 import { Layout } from '@clockwork-projects/ui-components';
 import { EmployeeTable } from '@clockwork-projects/logic-components';

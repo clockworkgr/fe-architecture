@@ -1,3 +1,9 @@
+
+/*
+  Assume this is our client library.
+  It must accept a config of sorts (e.g. additional chains, keyhashes etc)
+  Provides methods to access data
+*/
 export enum Department  {
   first='first',
   second='second'  
@@ -7,7 +13,6 @@ export type ClientData = {
   surname: string;
   department: Department;
 }
-
 export class ClientLib {
   
   private config:string;
