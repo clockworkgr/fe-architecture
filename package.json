@@ -1,0 +1,17 @@
+{
+  "name": "fe-architecture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "lerna bootstrap && lerna run build --stream --scope '{@clockwork-projects/clientlib,@clockwork-projects/stores,@clockwork-projects/ui-components,@clockwork-projects/logic-components}'",
+    "serve": "lerna run dev --scope=@clockwork-projects/webapp --stream"
+  },
+  "keywords": [],
+  "author": "Clockwork",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}

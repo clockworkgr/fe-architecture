@@ -1,0 +1,1 @@
+{"version":3,"file":"useClientLib.d.ts","sourceRoot":"","sources":["../src/useClientLib.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,SAAS,EAAE,MAAM,+BAA+B,CAAA;AAEzD,aAAM,WAAW,GAAG;IAClB,MAAM,EAAE,SAAS,CAAC;CACnB,CAAA;AACD,eAAO,MAAM,YAAY;uBAKH,MAAM;EAK1B,CAAC"}

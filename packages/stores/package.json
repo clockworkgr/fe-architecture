@@ -1,0 +1,26 @@
+{
+  "name": "@clockwork-projects/stores",
+  "private": true,
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@clockwork-projects/clientlib": "^0.0.1",
+    "typescript": "4.6.2",
+    "vue": "^3.2.33"
+  },
+  "dependencies": {
+    "@babel/types": "^7.17.10",
+    "@clockwork-projects/clientlib": "^0.0.1"
+  },
+  "peerDependencies": {
+    "pinia": "^2.0.13",
+    "vue": "^3.2.33"
+  }
+}
