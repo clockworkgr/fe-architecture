@@ -12,6 +12,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^9.0.7"
   }
 }
